@@ -2,6 +2,13 @@
 
 <suite name="Groups Test" verbose="1">
     <test name="TestNG Groups test">
+
+        <groups>
+            <run>
+                <include name="smoke"/>
+            </run>
+        </groups>
+
         <classes>
             <class name="testng.groups.GroupsTest1"/>
             <class name="testng.groups.GroupsTest2"></class>
