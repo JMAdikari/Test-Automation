@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Groups Test" verbose="1">
+    <test name="TestNG Groups test">
+        <classes>
+            <class name="testng.groups.GroupsTest1"/>
+            <class name="testng.groups.GroupsTest2"></class>
+            <class name="testng.groups.GroupsTest3"></class>
+            <class name="testng.groups.GroupsTest4"></class>
+
+        </classes>
+    </test>
+</suite>
