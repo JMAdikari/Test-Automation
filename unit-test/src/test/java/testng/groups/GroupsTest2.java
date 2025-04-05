@@ -4,17 +4,17 @@ import org.testng.annotations.Test;
 
 public class GroupsTest2 {
 
-    @Test
+    @Test(groups = { "smoke"})
     public void testGT2_M1() {
         System.out.println(" Group Test 2 M1");
     }
 
-    @Test
+    @Test(groups = { "reg", "smoke"})
     public void testGT2_M2() {
         System.out.println(" Group Test 2 M2");
     }
 
-    @Test
+    @Test(groups = { "reg"})
     public void testGT2_M3() {
         System.out.println(" Group Test 2 M3");
     }
